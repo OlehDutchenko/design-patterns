@@ -1,6 +1,9 @@
 {
   "private": true,
   "packageManager": "pnpm",
+  "scripts": {
+    "format": "prettier --check --write src/**/*.ts"
+  },
   "devDependencies": {
     "prettier": "^3.2.4",
     "typescript": "^5.3.3"
