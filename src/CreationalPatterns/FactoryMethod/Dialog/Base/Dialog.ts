@@ -8,7 +8,7 @@ export abstract class Dialog {
 		// this.renderSomethingElse();
 	}
 
-	// Don't accessible in the subclasses
+	// Not accessible in the subclasses
 	private renderCloseButton() {
 		const closeButton = this.createButton();
 		const handleClose = this.closeDialog.bind(this);
